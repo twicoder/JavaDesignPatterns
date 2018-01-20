@@ -2,20 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f62445fc-c18c-46ee-87bc-95e6b496f2e0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/ch3/Beverage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/ch3/CondimentDecorator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/ch3/Espresso.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/ch3/HouseBlend.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/ch3/InputTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/ch3/LowerCaseInputStream.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/ch3/Mocha.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/ch3/Soy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/ch3/StarbuzzCoffee.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/ch3/Whip.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/notes.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/ch4/CheesePizza.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/ch4/ClamPizza.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/ch4/GreekPizza.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/ch4/NYPizzaStore.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/ch4/NYStyleCheesePizza.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/ch4/NYStyleClamPizza.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/ch4/NYStyleVegglePizza.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/ch4/PepperoniPizza.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/ch4/Pizza.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/ch4/PizzaStore.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/ch4/SimplePizzaFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/ch4/VegglePizza.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/headfirstdesignpatterns/notes.txt" afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/notes.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,119 +27,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Espresso.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/headfirstdesignpatterns/ch3/Espresso.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding>
-                <element signature="e#102#103#0" expanded="true" />
-                <element signature="e#142#143#0" expanded="true" />
-                <element signature="e#184#185#0" expanded="true" />
-                <element signature="e#211#212#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HouseBlend.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/headfirstdesignpatterns/ch3/HouseBlend.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="e#105#106#0" expanded="true" />
-                <element signature="e#155#156#0" expanded="true" />
-                <element signature="e#197#198#0" expanded="true" />
-                <element signature="e#223#224#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mocha.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/headfirstdesignpatterns/ch3/Mocha.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-              <folding>
-                <element signature="e#146#147#0" expanded="true" />
-                <element signature="e#186#187#0" expanded="true" />
-                <element signature="e#238#239#0" expanded="true" />
-                <element signature="e#298#299#0" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
-                <element signature="e#384#385#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Soy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/headfirstdesignpatterns/ch3/Soy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-              <folding>
-                <element signature="e#142#143#0" expanded="true" />
-                <element signature="e#182#183#0" expanded="true" />
-                <element signature="e#234#235#0" expanded="true" />
-                <element signature="e#292#293#0" expanded="true" />
-                <element signature="e#334#335#0" expanded="true" />
-                <element signature="e#378#379#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Whip.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/headfirstdesignpatterns/ch3/Whip.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <element signature="e#144#145#0" expanded="true" />
-                <element signature="e#184#185#0" expanded="true" />
-                <element signature="e#236#237#0" expanded="true" />
-                <element signature="e#295#296#0" expanded="true" />
-                <element signature="e#337#338#0" expanded="true" />
-                <element signature="e#381#382#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StarbuzzCoffee.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/headfirstdesignpatterns/ch3/StarbuzzCoffee.java">
+      <file leaf-file-name="PizzaStore.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/headfirstdesignpatterns/ch4/PizzaStore.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LowerCaseInputStream.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/headfirstdesignpatterns/ch3/LowerCaseInputStream.java">
+      <file leaf-file-name="NYPizzaStore.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/headfirstdesignpatterns/ch4/NYPizzaStore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#239#240#0" expanded="true" />
-                <element signature="e#264#265#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InputTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/headfirstdesignpatterns/ch3/InputTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="330">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -147,18 +50,8 @@
       <file leaf-file-name="notes.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/headfirstdesignpatterns/notes.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+            <state relative-caret-position="542">
+              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -219,6 +112,19 @@
         <option value="$PROJECT_DIR$/src/headfirstdesignpatterns/ch3/LowerCaseInputStream.java" />
         <option value="$PROJECT_DIR$/src/test.txt" />
         <option value="$PROJECT_DIR$/src/headfirstdesignpatterns/ch3/InputTest.java" />
+        <option value="$PROJECT_DIR$/src/headfirstdesignpatterns/ch4/CheesePizza.java" />
+        <option value="$PROJECT_DIR$/src/headfirstdesignpatterns/ch4/GreekPizza.java" />
+        <option value="$PROJECT_DIR$/src/headfirstdesignpatterns/ch4/PepperoniPizza.java" />
+        <option value="$PROJECT_DIR$/src/headfirstdesignpatterns/ch4/Pizza.java" />
+        <option value="$PROJECT_DIR$/src/headfirstdesignpatterns/ch4/PizzaFactory.java" />
+        <option value="$PROJECT_DIR$/src/headfirstdesignpatterns/ch4/ClamPizza.java" />
+        <option value="$PROJECT_DIR$/src/headfirstdesignpatterns/ch4/VegglePizza.java" />
+        <option value="$PROJECT_DIR$/src/headfirstdesignpatterns/ch4/SimplePizzaFactory.java" />
+        <option value="$PROJECT_DIR$/src/headfirstdesignpatterns/ch4/PizzaStore.java" />
+        <option value="$PROJECT_DIR$/src/headfirstdesignpatterns/ch4/NYPizzaStore.java" />
+        <option value="$PROJECT_DIR$/src/headfirstdesignpatterns/ch4/NYStyleCheesePizza.java" />
+        <option value="$PROJECT_DIR$/src/headfirstdesignpatterns/ch4/NYStyleVegglePizza.java" />
+        <option value="$PROJECT_DIR$/src/headfirstdesignpatterns/ch4/NYStyleClamPizza.java" />
         <option value="$PROJECT_DIR$/src/headfirstdesignpatterns/notes.txt" />
       </list>
     </option>
@@ -272,6 +178,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="headfirstdesignpatterns" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaDesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaDesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="headfirstdesignpatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="ch4" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -286,6 +199,9 @@
     <property name="aspect.path.notification.shown" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="headfirstdesignpatterns.ch4" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\code\learnjava\JavaDesignPatterns" />
     </key>
@@ -512,12 +428,12 @@
       <option name="presentableId" value="Default" />
       <updated>1516361935818</updated>
       <workItem from="1516361937357" duration="2868000" />
-      <workItem from="1516405666201" duration="13939000" />
+      <workItem from="1516405666201" duration="19485000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16807000" />
+    <option name="totallyTimeSpent" value="22353000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="889" y="0" width="1038" height="1047" extended-state="0" />
@@ -532,8 +448,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36882547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36882547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2607362" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -687,16 +603,6 @@
           <folding>
             <element signature="e#123#124#0" expanded="false" />
             <element signature="e#170#171#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/headfirstdesignpatterns/ch1/TestDuck01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -872,10 +778,10 @@
         <state relative-caret-position="286">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <element signature="e#102#103#0" expanded="true" />
-            <element signature="e#142#143#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#102#103#0" expanded="false" />
+            <element signature="e#142#143#0" expanded="false" />
+            <element signature="e#184#185#0" expanded="false" />
+            <element signature="e#211#212#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -889,21 +795,6 @@
             <element signature="e#155#156#0" expanded="true" />
             <element signature="e#197#198#0" expanded="true" />
             <element signature="e#223#224#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/headfirstdesignpatterns/ch3/Mocha.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding>
-            <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -971,15 +862,134 @@
         <state relative-caret-position="417">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/headfirstdesignpatterns/ch1/TestDuck01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/headfirstdesignpatterns/ch3/Mocha.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/headfirstdesignpatterns/ch4/CheesePizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/headfirstdesignpatterns/ch4/GreekPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/headfirstdesignpatterns/ch4/PepperoniPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="41" lean-forward="false" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/headfirstdesignpatterns/ch4/Pizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/headfirstdesignpatterns/ch4/ClamPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="36" lean-forward="false" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/headfirstdesignpatterns/ch4/VegglePizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/headfirstdesignpatterns/ch4/SimplePizzaFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/headfirstdesignpatterns/ch4/NYStyleCheesePizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/headfirstdesignpatterns/ch4/NYStyleClamPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/headfirstdesignpatterns/ch4/NYStyleVegglePizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/headfirstdesignpatterns/ch4/PizzaStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/headfirstdesignpatterns/ch4/NYPizzaStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/headfirstdesignpatterns/notes.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="542">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
         </state>
       </provider>
